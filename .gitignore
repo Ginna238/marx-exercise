@@ -1,0 +1,55 @@
+# ========== 后端构建产物 ==========
+backend/target/
+target/
+*.jar
+*.war
+
+# ========== Maven Wrapper ==========
+backend/.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.jar
+
+# ========== 敏感配置（含密码/密钥） ==========
+backend/src/main/resources/application.yaml
+application.yaml
+application-prod.yaml
+application-prod.yml
+application-test.yml
+deploy/.env
+
+# ========== 前端构建产物 ==========
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ========== 环境变量 ==========
+.env
+.env.local
+.env.*.local
+
+# ========== IDE 配置 ==========
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+.springBeans
+.sts4-cache
+
+# ========== OS 文件 ==========
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========== 日志 ==========
+*.log
+
+# ========== 临时文件 ==========
+/tmp/
+*.tmp
+*.swp
+*~
+
